@@ -19,10 +19,10 @@ node () {
 	}
 	
 	stage ('APP-IC - Quality Analysis') {
-  withSonarQubeEnv('Sonar') {
-  bat 'mvn sonar:sonar'
-  }
-}
+       withSonarQubeEnv('Sonar') {
+          bat "mvn sonar:sonar"
+         }
+       }
 	
 	stage ('App-IC - Post build actions') {
 /*
