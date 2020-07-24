@@ -15,10 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
 <properties>
   <sonar.projectKey>jenagadanho_jenkins-sample</sonar.projectKey>
   <sonar.organization>jenagadanho</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>ddc128222ee1be61ecb123f433eaf7d234e054cc</sonar.login>
 </properties>
+</project>
