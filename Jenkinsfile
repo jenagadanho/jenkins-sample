@@ -24,6 +24,12 @@ node () {
  		} 
 	}
 	
+		/*	stage ('APP-IC-pipeline - Deploy') {
+       withSonarQubeEnv('Sonar') {
+          bat "mvn sonar:sonar"
+         }
+       }*/
+	
 
 	
 	stage ('App-IC - Post build actions') {
