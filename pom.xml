@@ -34,7 +34,7 @@
 </snapshotRepository>
 <repository>
 <id>nexus-releases</id>
-<url>http://35.187.84.181:8081/repository/mavenreleases/</url>
+<url>http://35.187.84.181:8081/repository/mavenr-eleases/</url>
 </repository>
 </distributionManagement>
   
